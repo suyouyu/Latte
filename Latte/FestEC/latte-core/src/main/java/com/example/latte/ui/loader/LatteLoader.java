@@ -1,4 +1,4 @@
-package com.example.latte.ui;
+package com.example.latte.ui.loader;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatDialog;
@@ -7,7 +7,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.example.latte.R;
-import com.example.latte.util.DimenUtil;
+import com.example.latte.util.dimen.DimenUtil;
 import com.wang.avi.AVLoadingIndicatorView;
 
 import java.util.ArrayList;

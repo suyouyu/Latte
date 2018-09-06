@@ -2,12 +2,11 @@ package com.example.latte.net;
 
 import android.content.Context;
 
-import com.example.latte.R;
 import com.example.latte.net.callback.IError;
 import com.example.latte.net.callback.IFailure;
 import com.example.latte.net.callback.IRequest;
 import com.example.latte.net.callback.ISuccess;
-import com.example.latte.ui.LoaderStyle;
+import com.example.latte.ui.loader.LoaderStyle;
 
 import java.io.File;
 import java.util.Map;

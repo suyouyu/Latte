@@ -1,9 +1,10 @@
 package com.example.latte.app;
 
+import android.app.Application;
 import android.content.Context;
+import android.os.Handler;
 
 import java.util.HashMap;
-import java.util.WeakHashMap;
 
 /**
  * Created by moransu on 2018/8/29.
@@ -13,16 +14,45 @@ import java.util.WeakHashMap;
 
 public final class Latte {
 
-    public static Configurator init(Context context){
-        getConfigurations().put(ConfigType.APPLICATION_CONTEXT.name(),context.getApplicationContext());
+//    public static Configurator init(Context context){
+//        getConfigurations().put(ConfigKeys.APPLICATION_CONTEXT.name(),context.getApplicationContext());
+//        return Configurator.getInstance();
+//    }
+//
+//    public static HashMap<Object,Object> getConfigurations(){
+//        return Configurator.getInstance().getLatteConfigs();
+//    }
+//
+//    public static Configurator getConfigurator() {
+//        return Configurator.getInstance();
+//    }
+//
+//    public static <T> T getConfiguration(Object key) {
+//        return getConfigurator().getConfiguration(key);
+//    }
+//
+//    public static Context getApplication(){
+//        return (Context) getConfigurations().get(ConfigKeys.APPLICATION_CONTEXT.name());
+//    }
+public static Configurator init(Context context) {
+    Configurator.getInstance()
+            .getLatteConfigs()
+            .put(ConfigKeys.APPLICATION_CONTEXT,
+                    context.getApplicationContext());
+    return Configurator.getInstance();
+}
+
+    public static Configurator getConfigurator() {
         return Configurator.getInstance();
     }
 
-    public static HashMap<String,Object> getConfigurations(){
-        return Configurator.getInstance().getLatteConfigs();
+    public static <T> T getConfiguration(Object key) {
+        return  Configurator.getInstance().getConfiguration(key);
     }
 
-    public static Context getApplication(){
-        return (Context) getConfigurations().get(ConfigType.APPLICATION_CONTEXT.name());
+    public static Context getApplicationContext() {
+        return Configurator.getInstance().getConfiguration(ConfigKeys.APPLICATION_CONTEXT);
     }
+
+
 }

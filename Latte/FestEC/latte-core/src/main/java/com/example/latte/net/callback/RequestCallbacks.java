@@ -1,11 +1,7 @@
 package com.example.latte.net.callback;
 
-import android.support.annotation.Nullable;
-
-import com.example.latte.ui.LatteLoader;
-import com.example.latte.ui.LoaderStyle;
-
-import java.util.logging.Handler;
+import com.example.latte.ui.loader.LatteLoader;
+import com.example.latte.ui.loader.LoaderStyle;
 
 import retrofit2.Call;
 import retrofit2.Callback;

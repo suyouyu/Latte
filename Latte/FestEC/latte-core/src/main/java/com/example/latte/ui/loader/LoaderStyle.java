@@ -1,4 +1,4 @@
-package com.example.latte.ui;
+package com.example.latte.ui.loader;
 
 import com.wang.avi.indicators.BallBeatIndicator;
 import com.wang.avi.indicators.BallClipRotateIndicator;
