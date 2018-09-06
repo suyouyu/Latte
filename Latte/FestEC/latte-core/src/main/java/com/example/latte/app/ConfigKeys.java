@@ -28,5 +28,11 @@ public enum ConfigKeys {
      */
     ICON,
     LOADER_DELAYED,
-    INTERCEPTOR
+    INTERCEPTOR,
+    /**
+     *  微信ID和密匙
+     */
+    WE_CHAT_APP_ID,
+    WE_CHAT_APP_SECRET,
+    ACTIVITY
 }
