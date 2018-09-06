@@ -26,7 +26,7 @@ import com.example.latte.util.storage.LattePreference;
 import java.util.ArrayList;
 
 /**
- * Created by 傅令杰 on 2017/4/22
+ * Created by moransu on 2018/8/22
  */
 
 public class LauncherScrollDelegate extends LatteDelegate implements OnItemClickListener {

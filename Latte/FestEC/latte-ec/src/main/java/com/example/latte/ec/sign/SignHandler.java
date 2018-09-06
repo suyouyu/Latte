@@ -8,7 +8,7 @@ import com.example.latte.ec.database.UserProfile;
 //import com.flj.latte.app.AccountManager;
 
 /**
- * Created by 傅令杰 on 2017/4/22
+ * Created by moransu on 2018/8/22
  */
 
 public class SignHandler {

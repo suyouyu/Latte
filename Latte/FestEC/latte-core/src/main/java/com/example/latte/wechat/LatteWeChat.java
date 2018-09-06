@@ -10,7 +10,7 @@ import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 
 /**
- * Created by 傅令杰 on 2017/4/25
+ * Created by moransu on 2018/9/6
  */
 
 public class LatteWeChat {

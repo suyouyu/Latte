@@ -4,7 +4,7 @@ import com.tencent.mm.opensdk.constants.ConstantsAPI;
 import com.tencent.mm.opensdk.modelbase.BaseResp;
 
 /**
- * Created by 傅令杰
+ * Created by moransu on 2018/9/6
  */
 
 public abstract class BaseWXPayEntryActivity extends BaseWXActivity {

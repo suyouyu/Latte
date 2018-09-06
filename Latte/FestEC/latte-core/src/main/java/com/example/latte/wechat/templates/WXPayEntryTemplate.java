@@ -6,7 +6,7 @@ import com.example.latte.wechat.BaseWXPayEntryActivity;
 import com.tencent.mm.opensdk.modelbase.BaseReq;
 
 /**
- * Created by 傅令杰 on 2017/1/2
+ * Created by moransu on 2018/9/6
  */
 
 public class WXPayEntryTemplate extends BaseWXPayEntryActivity {

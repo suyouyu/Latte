@@ -1,7 +1,7 @@
 package com.example.latte.wechat.callbacks;
 
 /**
- * Created by 傅令杰 on 2017/4/25
+ * Created by moransu on 2018/9/6
  */
 
 public interface IWeChatSignInCallback {
